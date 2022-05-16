@@ -26,13 +26,24 @@ http://localhost:41062/phpmyadmin/
 ## SQL
 
 ```sql
--- member table
 
-CREATE T`ABLE (
-    id NOT NULL AUTO_INCREMENT,
+-- user
+CREATE USER 'user1' IDENTIFIED BY '12345';
+GRANT ALL PRIVILEGES ON *.* TO 'user1'@'%';
+FLUSH PRIVILEGES;
+
+-- member table
+CREATE TABLE (
+    id INT AUTO_INCREMENT NOT NULL,
     name VARCHAR(50) NOT NULL,
     password VARCHAR(10) NOT NULL,
     PRIMARY KEY (id)
 );
 
+```
+
+## restart xamp
+
+```bash
+docker exec myXampp /opt/lampp/lampp restart
 ```
