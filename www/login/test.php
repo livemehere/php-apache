@@ -11,7 +11,6 @@
 <body>
     <?php
     session_start();
-
     // setcookie('mycookie','cookie value',time()+60);
 
     $_SESSION['userid'] = 'rhdxoals';
