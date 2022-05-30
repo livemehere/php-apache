@@ -1,6 +1,6 @@
 <div id="head">
     <div id="logo">
-        <a href="/www"><img src="/www/img/logo.gif" alt="" /></a>
+        <a href="/www"><img src="/www/img/logo.gif" alt="로고" /></a>
     </div>
     <nav id="top_menu">
         <ul>
@@ -9,13 +9,15 @@
                 if(isset($_SESSION["username"])){
                     echo  '<li>'.$_SESSION["username"].'님 환영합니다</li>
                             <li><a href="/www/login/logout.php">Logout</a></li>
-                            ';
+                            '; //TODO: www 제거
                 }else{
-                    echo '<li><a href="/www/login/login_form.html">Login</a></li>';
+                    echo '<li><a href="/www/login/login_form.html">Login</a></li>'; //TODO: www 제거
+                    echo '<li><a href="/www/login/member_form.html">회원가입</a></li>'; //TODO: www 제거
                 }
             ?>
             <li><a href="/www">Home</a></li>
-            <li><a href="/www/login/member_form.html">회원가입</a></li>
+            <li><a href="/www">English</a></li>
+            <li><a href="/www">Chinese</a></li>
         </ul>
     </nav>
 </div>

@@ -39,7 +39,7 @@
             $_SESSION['username'] = $row['name'];
             header('Location: /www'); // 홈으로 리다이렉트 //TODO: www 제거하기
         }
-        return;
+        mysqli_close($con);
     ?>
 </body>
 </html>

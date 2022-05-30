@@ -2,9 +2,6 @@
    session_start();
    unset($_SESSION['userid']);
    unset($_SESSION['username']);
-
-   echo "
-   <script>
-    location.href='../index.php';
-   </script> ";
+   unset($_SESSION['passwd']);
+   header('Location: /www'); //TODO: www 제거
 ?>
