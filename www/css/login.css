@@ -42,3 +42,29 @@ ul{
 #member_link li a{
     font-size:12px;
 }
+
+
+.id_wrap{
+    display: flex;
+
+}
+.id_wrap input{
+    display: inline-block;
+}
+
+.id_wrap input:nth-of-type(1){
+    flex:3 3;
+}
+.id_wrap input:nth-of-type(2){
+    height: 34px !important;
+    flex:1 1;
+}
+
+.btn_wrap{
+    display: flex;
+}
+
+.btn_wrap input{
+    flex: 1 1;
+    padding: 1em;
+}
