@@ -40,7 +40,7 @@
                             <h4>그리스의상 체험</h4>
                             <p style="max-width: 80%;">그리스 의상을 입고 그리스신화박물관을 관람하는 동안
                                 나도 직접 그리스 신화 속 주인공이 되어볼까요?</p>
-                            <div class="btn_more"><a href="/Experience/1.php"><img
+                            <div class="btn_more"><a href="1.php"><img
                                         src="http://www.greekmythology.co.kr/default/_template/image/default/02/exhibition_more.gif"
                                         alt="더보기"></a></div>
                         </div>
@@ -50,7 +50,7 @@
                                     alt="올림포스관 전경"></div>
                             <h4>스탬프북</h4>
                             <p>전시관 곳곳에 숨어 있는 스탬프 존을 찾아 스탬프를 쾅! 쾅!</p>
-                            <div class="btn_more"><a href="/Experience/2.php"><img
+                            <div class="btn_more"><a href="2.php"><img
                                         src="http://www.greekmythology.co.kr/default/_template/image/default/02/exhibition_more.gif"
                                         alt="더보기"></a></div>
                         </div>
@@ -64,7 +64,7 @@
                             </div>
                             <h4>아테네시민권 발급체험</h4>
                             <p>이젠 나도 아테네 시민!</p>
-                            <div class="btn_more"><a href="/Experience/3.php"><img
+                            <div class="btn_more"><a href="3.php"><img
                                         src="http://www.greekmythology.co.kr/default/_template/image/default/02/exhibition_more.gif"
                                         alt="더보기"></a></div>
                         </div>
@@ -75,7 +75,7 @@
                             </div>
                             <h4>가면만들기 체험</h4>
                             <p>올림포스 12신의 가면을 만들어 봐요~</p>
-                            <div class="btn_more"><a href="/Experience/4.php"><img
+                            <div class="btn_more"><a href="4.php"><img
                                         src="http://www.greekmythology.co.kr/default/_template/image/default/02/exhibition_more.gif"
                                         alt="더보기"></a></div>
                         </div>
@@ -88,7 +88,7 @@
                                     alt="휴먼관 관련 이미지"></div>
                             <h4>아트토이 체험</h4>
                             <p>나만의 아트토이를 직접 만들어보는 시간!</p>
-                            <div class="btn_more"><a href="/Experience/5.php"><img
+                            <div class="btn_more"><a href="5.php"><img
                                         src="http://www.greekmythology.co.kr/default/_template/image/default/02/exhibition_more.gif"
                                         alt="더보기"></a></div>
                         </div>

@@ -39,7 +39,7 @@
                             </div>
                             <h4>창조관</h4>
                             <p>두근두근 콩닥콩닥! 이 세상은 어떻게 시작되었을까요?</p>
-                            <div class="btn_more"><a href="/Exhibition/1.php"><img
+                            <div class="btn_more"><a href="1.php"><img
                                         src="http://www.greekmythology.co.kr/default/_template/image/default/02/exhibition_more.gif"
                                         alt="더보기"></a></div>
                         </div>
@@ -49,7 +49,7 @@
                                     alt="올림포스관 전경"></div>
                             <h4>올림포스관</h4>
                             <p>제우스와 그 형제, 자손들로 이루어진 올림포스 12신!</p>
-                            <div class="btn_more"><a href="/Exhibition/2.php"><img
+                            <div class="btn_more"><a href="2.php"><img
                                         src="http://www.greekmythology.co.kr/default/_template/image/default/02/exhibition_more.gif"
                                         alt="더보기"></a></div>
                         </div>
@@ -63,7 +63,7 @@
                             </div>
                             <h4>신탁관</h4>
                             <p>신비한 예언으로 만나는 나만의 별자리체험 </p>
-                            <div class="btn_more"><a href="/Exhibition/3.php"><img
+                            <div class="btn_more"><a href="3.php"><img
                                         src="http://www.greekmythology.co.kr/default/_template/image/default/02/exhibition_more.gif"
                                         alt="더보기"></a></div>
                         </div>
@@ -74,7 +74,7 @@
                             </div>
                             <h4>영웅관</h4>
                             <p>영웅 중의 영웅 헤라클레스와 함께하는 12가지 과업</p>
-                            <div class="btn_more"><a href="/Exhibition/4.php"><img
+                            <div class="btn_more"><a href="4.php"><img
                                         src="http://www.greekmythology.co.kr/default/_template/image/default/02/exhibition_more.gif"
                                         alt="더보기"></a></div>
                         </div>
@@ -87,7 +87,7 @@
                                     alt="휴먼관 관련 이미지"></div>
                             <h4>휴먼관</h4>
                             <p>신의 세계에서 인간의 세계로, <br>그 곳에서 이루어지는 다양한 인간들의 이야기.</p>
-                            <div class="btn_more"><a href="/Exhibition/5.php"><img
+                            <div class="btn_more"><a href="5.php"><img
                                         src="http://www.greekmythology.co.kr/default/_template/image/default/02/exhibition_more.gif"
                                         alt="더보기"></a></div>
                         </div>
@@ -97,7 +97,7 @@
                                     alt="사랑관 관련 이미지"></div>
                             <h4>사랑관</h4>
                             <p>신들이 살아 숨 쉴 것만 같은 환상의 정원.<br>그 안에서 펼쳐지는 사랑의 향연!</p>
-                            <div class="btn_more"><a href="/Exhibition/6.php"><img
+                            <div class="btn_more"><a href="6.php"><img
                                         src="http://www.greekmythology.co.kr/default/_template/image/default/02/exhibition_more.gif"
                                         alt="더보기"></a></div>
                         </div>
@@ -109,7 +109,7 @@
                                     alt="그리스마을 관련 이미지"></div>
                             <h4>그리스마을</h4>
                             <p>타임머신을 타고 옛 그리스마을로 들어가 직접 체험해보세요!</p>
-                            <div class="btn_more"><a href="/Exhibition/7.php="><img
+                            <div class="btn_more"><a href="7.php="><img
                                         src="http://www.greekmythology.co.kr/default/_template/image/default/02/exhibition_more.gif"
                                         alt="더보기"></a></div>
                         </div>
