@@ -17,7 +17,7 @@
 <body>
     <div id="wrap">
         <header>
-            <?php include("../header.html"); ?>
+            <?php include("../header.php"); ?>
         </header>
         <section id="slider">
             <img src="../img/community/sub_visual_bg.jpg" alt="">
@@ -74,110 +74,27 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td class="jn_num">8</td>
-                                        <td class="jn_title"><a title="그리스신화박물관 포스트 시작합니다">그리스신화박물관 포스트 시작…</a> <img
-                                                src="http://www.greekmythology.co.kr/default/Bd/img/hot.gif"
-                                                class="new"></td>
-                                        <td class="jn_author"><a href="mailto:greekjeju@naver.com">운영자</a></td>
+                                <?php
+                                $con = mysqli_connect("localhost", "user1", "12345", "sample");
+                                $sql = "select * from board";
+                                $result = mysqli_query($con, $sql);
+
+                                while ($row = mysqli_fetch_assoc($result)) {
+                                    if(is_null($row["file_name"])){
+                                    }
+                                    echo '
+                                        <tr>
+                                        <td class="jn_num">'.$row["num"].'</td>
+                                        <td class="jn_title"><a title="그리스신화박물관 포스트 시작합니다">'.$row["content"].'</a>
+                                        <td class="jn_author"><a href="#">'.$row["name"].'</a></td>
                                         <td class="jn_ad">&nbsp;</td>
-                                        <td class="jn_date">2018-08-05</td>
-                                        <td class="jn_vCount">2826</td>
+                                        <td class="jn_date">'.$row["regist_day"].'</td>
+                                        <td class="jn_vCount">'.$row["hit"].'</td>
                                     </tr>
-                                    <tr>
+                                    ';
+                                }
 
-                                        <td class="jn_num">7</td>
-                                        <td class="jn_title"><a title="2018년 새해 복 많이 받으세요~ ">2018년 새해 복 많이 받으세요~ </a>
-                                            <img src="http://www.greekmythology.co.kr/default/Bd/img/hot.gif"
-                                                class="new">
-                                        </td>
-                                        <td class="jn_author">운영자</td>
-                                        <td class="jn_ad"><img
-                                                src="http://www.greekmythology.co.kr/default/Bd/img/icon_file.gif"
-                                                alt="첨부파일"></td>
-                                        <td class="jn_date">2018-02-15</td>
-                                        <td class="jn_vCount">3011</td>
-                                    </tr>
-                                    <tr>
-
-                                        <td class="jn_num">6</td>
-                                        <td class="jn_title"><a title="2017년도 문화가 있는날은 계속됩니다!!">2017년도 문화가 있는날은 계속…</a>
-                                            <img src="http://www.greekmythology.co.kr/default/Bd/img/hot.gif"
-                                                class="new">
-                                        </td>
-                                        <td class="jn_author">운영자</td>
-                                        <td class="jn_ad"><img
-                                                src="http://www.greekmythology.co.kr/default/Bd/img/icon_file.gif"
-                                                alt="첨부파일"></td>
-                                        <td class="jn_date">2017-06-23</td>
-                                        <td class="jn_vCount">3205</td>
-                                    </tr>
-                                    <tr>
-
-                                        <td class="jn_num">5</td>
-                                        <td class="jn_title"><a title="2017년 정유년 새해 복 많이 받읍시닭!">2017년 정유년 새해 복 많이 받…</a>
-                                            <img src="http://www.greekmythology.co.kr/default/Bd/img/hot.gif"
-                                                class="new">
-                                        </td>
-                                        <td class="jn_author">운영자</td>
-                                        <td class="jn_ad"><img
-                                                src="http://www.greekmythology.co.kr/default/Bd/img/icon_file.gif"
-                                                alt="첨부파일"></td>
-                                        <td class="jn_date">2017-01-26</td>
-                                        <td class="jn_vCount">3976</td>
-                                    </tr>
-                                    <tr>
-
-                                        <td class="jn_num">4</td>
-                                        <td class="jn_title"><a title="7월 제주도민을 위한 SNS EVENT!">7월 제주도민을 위한 SNS
-                                                EVENT!</a> <img
-                                                src="http://www.greekmythology.co.kr/default/Bd/img/hot.gif"
-                                                class="new"></td>
-                                        <td class="jn_author">운영자</td>
-                                        <td class="jn_ad"><img
-                                                src="http://www.greekmythology.co.kr/default/Bd/img/icon_file.gif"
-                                                alt="첨부파일"></td>
-                                        <td class="jn_date">2015-07-06</td>
-                                        <td class="jn_vCount">7248</td>
-                                    </tr>
-                                    <tr>
-
-                                        <td class="jn_num">3</td>
-                                        <td class="jn_title"><a title="가정의 달 HAPPY EVENT!!">가정의 달 HAPPY EVENT!!</a> <img
-                                                src="http://www.greekmythology.co.kr/default/Bd/img/hot.gif"
-                                                class="new"></td>
-                                        <td class="jn_author">운영자</td>
-                                        <td class="jn_ad"><img
-                                                src="http://www.greekmythology.co.kr/default/Bd/img/icon_file.gif"
-                                                alt="첨부파일"></td>
-                                        <td class="jn_date">2015-04-15</td>
-                                        <td class="jn_vCount">7144</td>
-                                    </tr>
-                                    <tr>
-
-                                        <td class="jn_num">2</td>
-                                        <td class="jn_title"><a title="매월 마지막 수요일은 '문화가 있는 날'">매월 마지막 수요일은 '문화가 …</a>
-                                            <img src="http://www.greekmythology.co.kr/default/Bd/img/hot.gif"
-                                                class="new">
-                                        </td>
-                                        <td class="jn_author">운영자</td>
-                                        <td class="jn_ad"><img
-                                                src="http://www.greekmythology.co.kr/default/Bd/img/icon_file.gif"
-                                                alt="첨부파일"></td>
-                                        <td class="jn_date">2015-02-27</td>
-                                        <td class="jn_vCount">7696</td>
-                                    </tr>
-                                    <tr>
-
-                                        <td class="jn_num">1</td>
-                                        <td class="jn_title"><a title="그리스신화박물관 홈페이지 OPEN!">그리스신화박물관 홈페이지 OPE</a> <img
-                                                src="http://www.greekmythology.co.kr/default/Bd/img/hot.gif"
-                                                class="new"></td>
-                                        <td class="jn_author">운영자</td>
-                                        <td class="jn_ad">&nbsp;</td>
-                                        <td class="jn_date">2015-02-09</td>
-                                        <td class="jn_vCount">7026</td>
-                                    </tr>
+                                ?>
                                 </tbody>
                             </table>
                         </fieldset>

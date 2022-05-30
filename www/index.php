@@ -12,7 +12,7 @@
 <body>
     <div id="wrap">
         <header>
-            <?php include("header.html"); ?>
+            <?php include("header.php"); ?>
         </header>
         <section id="image_slider">
             <div id="slider">
@@ -24,7 +24,6 @@
                 <img src="./img/main/top_main05.jpg" alt>
                 </figure>
             </div>
-           
            <article id="slider_text">
                <ul>
                    <li>Greek Mythology is alive</li>

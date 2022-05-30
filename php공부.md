@@ -83,3 +83,21 @@ setcookie('mycookie','cookie value',time()+60); // expire 날짜지정 ex) 60초
 ```php
 header("location:/www/index.php"); // location: = 도메인
 ```
+
+## mysqli 사용하기
+
+> 이게 끝임
+
+```php
+<?php
+    $con = mysqli_connect("localhost", "user1", "12345", "sample");
+    $sql = "select * from board";
+    $result = mysqli_query($con, $sql);
+    
+    while ($row = mysqli_fetch_array($result)) {
+        echo '<h2>'.$row["name"].' / '.$row["content"].'</h2>';
+    }
+
+    mysqli_close($con);
+?>
+```

@@ -17,7 +17,7 @@
 <body>
     <div id="wrap">
         <header>
-            <?php include("../header.html"); ?>
+            <?php include("../header.php"); ?>
         </header>
         <section id="slider">
             <img src="../img/exhibition/sub_visual_bg.jpg" alt="">
