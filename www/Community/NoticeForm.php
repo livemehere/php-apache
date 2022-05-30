@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>PHP 프로그래밍 입문</title>
 <link rel="stylesheet" type="text/css" href="../css/common.css">
-<link rel="stylesheet" type="text/css" href="../css/board.css">
+    <link rel="stylesheet" href="../css/community.css">
 <script>
   function check_input() {
       if (!document.board_form.subject.value)
@@ -25,7 +25,7 @@
 </head>
 <body> 
 <header>
-    <?php include "/www/header.php";?>
+    <?php include "../header.php";?>
 </header>  
 <section>
 	<div id="main_img_bar">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../css/subpage_common.css">
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/tm-custom.css">
+    <link rel="stylesheet" type="text/css" href="../css/community.css">
+
     <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
 
 </head>

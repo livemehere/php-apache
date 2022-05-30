@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/subpage_common.css">
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/tm-custom.css">
-    <link rel="stylesheet" href="../css/board.css">
+    <link rel="stylesheet" href="../css/community.css">
     <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
 
 </head>
@@ -58,7 +58,8 @@
                             <span class="col1"><b>제목 :</b> <?=$subject?></span>
                             <span class="col2"><?=$name?> | <?=$regist_day?></span>
                             <?php
-                                echo '<span><a class="delete_btn" href="NoticeDelete.php?num='.$row["num"].'">삭제</a></span>'
+                                echo '<span><a class="delete_btn" href="NoticeDelete.php?num='.$row["num"].'">삭제</a></span>';
+                                echo '<span><a class="modify_btn" href="NoticeModifyForm.php?num='.$row["num"].'">수정하기</a></span>';
                             ?>
                         </li>
                         <li>

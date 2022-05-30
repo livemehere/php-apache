@@ -39,8 +39,7 @@
 		$file_ext  = $file[1];
 
 		$new_file_name = date("Y_m_d_H_i_s");
-		$new_file_name = $new_file_name;
-		$copied_file_name = $new_file_name.".".$file_ext;      
+		$copied_file_name = $new_file_name.".".$file_ext;
 		$uploaded_file = $upload_dir.$copied_file_name;
 
 		if( $upfile_size  > 1000000 ) {

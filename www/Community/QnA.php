@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/subpage_common.css">
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/tm-custom.css">
+    <link rel="stylesheet" type="text/css" href="../css/community.css">
     <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
 
 </head>
@@ -44,110 +45,20 @@
                             </tr>
                         </thead>
                         <tbody>
-
-                            <tr>
-
-                                <td class="jn_num">36</td>
-                                <td class="jn_title"><a href="#" title="제휴문의">제휴문의</a> </td>
-                                <td class="jn_author"><a href="#">유지은</a></td>
-                                <td class="jn_ad">&nbsp;</td>
-                                <td class="jn_date">2022-04-14</td>
-                                <td class="jn_vCount">8</td>
-                            </tr>
-                            <tr>
-
-                                <td class="jn_num">35</td>
-                                <td class="jn_title"><a href="#" title="[홍보물 요청] 예비 관광 벤처기업 트립본입니다.">[홍보물 요청] 예비 관광
-                                        벤처기업…</a> </td>
-                                <td class="jn_author"><a href="#">트립본</a></td>
-                                <td class="jn_ad">&nbsp;</td>
-                                <td class="jn_date">2019-12-11</td>
-                                <td class="jn_vCount">530</td>
-                            </tr>
-                            <tr>
-
-                                <td class="jn_num">34</td>
-                                <td class="jn_title"><a href="#" title="휴관문의 드립니다?">휴관문의 드립니다?</a> </td>
-                                <td class="jn_author"><a href="#">휴관문…</a></td>
-                                <td class="jn_ad">&nbsp;</td>
-                                <td class="jn_date">2018-12-13</td>
-                                <td class="jn_vCount">780</td>
-                            </tr>
-                            <tr>
-
-                                <td class="jn_num">33</td>
-                                <td class="jn_title"><img
-                                        src="http://www.greekmythology.co.kr/default/Bd/skin/basic_qna/img/re.gif"
-                                        border="0" alt="답글"> <a href="#" title="[답변] 휴관문의 드립니다?">[답변] 휴관문의 드립니다?</a>
-                                </td>
-                                <td class="jn_author">운영자</td>
-                                <td class="jn_ad">&nbsp;</td>
-                                <td class="jn_date">2019-01-02</td>
-                                <td class="jn_vCount">505</td>
-                            </tr>
-                            <tr>
-
-                                <td class="jn_num">32</td>
-                                <td class="jn_title"><a href="#" title="반려동물 동반 가능 한가요">반려동물 동반 가능 한가요</a> </td>
-                                <td class="jn_author">11</td>
-                                <td class="jn_ad">&nbsp;</td>
-                                <td class="jn_date">2018-07-19</td>
-                                <td class="jn_vCount">956</td>
-                            </tr>
-                            <tr>
-
-                                <td class="jn_num">31</td>
-                                <td class="jn_title"><img
-                                        src="http://www.greekmythology.co.kr/default/Bd/skin/basic_qna/img/re.gif"
-                                        border="0" alt="답글"> <a href="#" title="[답변] 반려동물 동반 가능 한가요">[답변] 반려동물 동반 가능
-                                        한가…</a> </td>
-                                <td class="jn_author"><a href="#">운영자</a></td>
-                                <td class="jn_ad">&nbsp;</td>
-                                <td class="jn_date">2018-12-03</td>
-                                <td class="jn_vCount">485</td>
-                            </tr>
-                            <tr>
-
-                                <td class="jn_num">30</td>
-                                <td class="jn_title"><a href="#" title="그리스 신화박물관 너무 좋아요">그리스 신화박물관 너무 좋아…</a> <img
-                                        src="http://www.greekmythology.co.kr/default/Bd/img/hot.gif" class="new"></td>
-                                <td class="jn_author"><a href="#">권혜림</a></td>
-                                <td class="jn_ad">&nbsp;</td>
-                                <td class="jn_date">2018-03-10</td>
-                                <td class="jn_vCount">1221</td>
-                            </tr>
-                            <tr>
-
-                                <td class="jn_num">29</td>
-                                <td class="jn_title"><img
-                                        src="http://www.greekmythology.co.kr/default/Bd/skin/basic_qna/img/re.gif"
-                                        border="0" alt="답글"> <a href="#" title="[답변] 그리스 신화박물관 너무 좋아요">[답변] 그리스 신화박물관 너무
-                                        …</a> </td>
-                                <td class="jn_author">운영자</td>
-                                <td class="jn_ad">&nbsp;</td>
-                                <td class="jn_date">2018-03-21</td>
-                                <td class="jn_vCount">673</td>
-                            </tr>
-                            <tr>
-
-                                <td class="jn_num">28</td>
-                                <td class="jn_title"><a href="#" title=" Search for your museum"> Search for your
-                                        museum</a> <img src="http://www.greekmythology.co.kr/default/Bd/img/hot.gif"
-                                        class="new"></td>
-                                <td class="jn_author"><a href="#">Dimitris P…</a></td>
-                                <td class="jn_ad">&nbsp;</td>
-                                <td class="jn_date">2017-11-14</td>
-                                <td class="jn_vCount">1533</td>
-                            </tr>
-                            <tr>
-                                <td class="jn_num">27</td>
-                                <td class="jn_title"><a href="#" title="다자녀할인이 있는지 알고 싶습니다.">다자녀할인이 있는지 알고 싶…</a> <img
-                                        src="http://www.greekmythology.co.kr/default/Bd/img/hot.gif" class="new"></td>
-                                <td class="jn_author"><a href="#">강나루</a></td>
-                                <td class="jn_ad">&nbsp;</td>
-                                <td class="jn_date">2017-02-23</td>
-                                <td class="jn_vCount">2074</td>
-                            </tr>
+                            <?php
+                                for($i =0; $i<10; $i++){
+                                    echo '
+                                        <tr>
+                                            <td class="jn_num">36</td>
+                                            <td class="jn_title"><a href="#" title="제휴문의">제휴문의</a> </td>
+                                            <td class="jn_author"><a href="#">유지은</a></td>
+                                            <td class="jn_ad">&nbsp;</td>
+                                            <td class="jn_date">2022-04-14</td>
+                                            <td class="jn_vCount">8</td>
+                                        </tr>
+                                    ';
+                                }
+                            ?>
                         </tbody>
                     </table>
                 </fieldset>
