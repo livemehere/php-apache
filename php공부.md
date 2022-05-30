@@ -101,3 +101,9 @@ header("location:/www/index.php"); // location: = 도메인
     mysqli_close($con);
 ?>
 ```
+
+## history
+
+```php
+history.go(-1) // 뒤로 한 페이지 이동
+```

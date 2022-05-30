@@ -13,7 +13,6 @@
     <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
 
 </head>
-
 <body>
     <div id="wrap">
         <header>
@@ -34,6 +33,7 @@
                         <fieldset class="boardSearch">
                             <legend>게시물 검색</legend>
                             <ul>
+                                <li class="write_btn"><a href="NoticeForm.php">글쓰기</a></li>
                                 <li>
                                     <label for="l_search">검색</label>
                                     <select name="l_search" id="l_search" title="검색항목을 선택하세요!">
@@ -79,13 +79,11 @@
                                 $sql = "select * from board";
                                 $result = mysqli_query($con, $sql);
 
-                                while ($row = mysqli_fetch_assoc($result)) {
-                                    if(is_null($row["file_name"])){
-                                    }
+                                while ($row = mysqli_fetch_array($result)) {
                                     echo '
                                         <tr>
                                         <td class="jn_num">'.$row["num"].'</td>
-                                        <td class="jn_title"><a title="그리스신화박물관 포스트 시작합니다">'.$row["content"].'</a>
+                                        <td class="jn_title"><a href="./NoticeDetail.php?num='.$row['num'].'">'.$row["subject"].'</a></td>
                                         <td class="jn_author"><a href="#">'.$row["name"].'</a></td>
                                         <td class="jn_ad">&nbsp;</td>
                                         <td class="jn_date">'.$row["regist_day"].'</td>
@@ -93,7 +91,6 @@
                                     </tr>
                                     ';
                                 }
-
                                 ?>
                                 </tbody>
                             </table>

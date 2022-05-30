@@ -3,8 +3,8 @@
 <head> 
 <meta charset="utf-8">
 <title>PHP 프로그래밍 입문</title>
-<link rel="stylesheet" type="text/css" href="./css/common.css">
-<link rel="stylesheet" type="text/css" href="./css/board.css">
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link rel="stylesheet" type="text/css" href="../css/board.css">
 <script>
   function check_input() {
       if (!document.board_form.subject.value)
@@ -25,25 +25,25 @@
 </head>
 <body> 
 <header>
-    <?php include "header.php";?>
+    <?php include "/www/header.php";?>
 </header>  
 <section>
 	<div id="main_img_bar">
-        <img src="./img/main_img.png">
+        <img src="../img/community/sub_visual_bg.jpg" alt="">
     </div>
    	<div id="board_box">
-	    <h3 id="board_title">
-	    		게시판 > 글 쓰기
-		</h3>
-	    <form  name="board_form" method="post" action="board_insert.php" enctype="multipart/form-data">
+	    <form name="board_form" method="post" action="NoticeInsert.php" enctype="multipart/form-data">
+            <h3 id="board_title">
+                게시판 > 글 쓰기
+            </h3>
 	    	 <ul id="board_form">
 				<li>
 					<span class="col1">이름 : </span>
-					<span class="col2"><?=$username?></span>
+					<span class="col2"><?=$_SESSION['username']?></span>
 				</li>		
 	    		<li>
-	    			<span class="col1">제목 : </span>
-	    			<span class="col2"><input name="subject" type="text"></span>
+	    			<span class="col1 ">제목 : </span>
+	    			<span class="col2 title"><input name="subject" type="text"></span>
 	    		</li>	    	
 	    		<li id="text_area">	
 	    			<span class="col1">내용 : </span>
@@ -58,13 +58,13 @@
 	    	    </ul>
 	    	<ul class="buttons">
 				<li><button type="button" onclick="check_input()">완료</button></li>
-				<li><button type="button" onclick="location.href='board_list.php'">목록</button></li>
+				<li><button type="button" onclick="location.href='Notice.php'">목록</button></li>
 			</ul>
 	    </form>
 	</div> <!-- board_box -->
 </section> 
 <footer>
-    <?php include "footer.php";?>
+    <?php include "/www/footer.html";?>
 </footer>
 </body>
 </html>

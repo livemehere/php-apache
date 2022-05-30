@@ -17,14 +17,13 @@
                 exit;
     }
 
-    $subject = $_POST["subject"];
-    $content = $_POST["content"];
+    $subject = $_POST["subject"]; // 제목
+    $content = $_POST["content"]; // 내용
 
 	$subject = htmlspecialchars($subject, ENT_QUOTES);
 	$content = htmlspecialchars($content, ENT_QUOTES);
 
 	$regist_day = date("Y-m-d (H:i)");  // 현재의 '년-월-일-시-분'을 저장
-
 	$upload_dir = './data/';
 
 	$upfile_name	 = $_FILES["upfile"]["name"];
@@ -53,7 +52,6 @@
 				");
 				exit;
 		}
-
 		if (!move_uploaded_file($upfile_tmp_name, $uploaded_file) )
 		{
 				echo("
@@ -94,7 +92,7 @@
 
 	echo "
 	   <script>
-	    location.href = 'board_list.php';
+	    location.href = '/www/Community/Notice.php';
 	   </script>
 	";
 ?>
